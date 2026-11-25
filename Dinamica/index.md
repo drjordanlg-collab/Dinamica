@@ -12,7 +12,7 @@
 
 <style>
   body {
-    background-color: #F7F7F7;
+    background-color: #333333;
     font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     color: #333333;
     margin: 0;
