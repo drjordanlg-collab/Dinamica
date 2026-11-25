@@ -1,14 +1,8 @@
-<!-- Carga de fuente oficial de Ubuntu y soporte para fórmulas LaTeX (MathJax) -->
-<link href="https://googleapis.com" rel="stylesheet">
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']]
-    }
-  };
-</script>
-<script id="MathJax-script" async src="https://jsdelivr.net"></script>
+<!-- Soporte rápido de LaTeX con KaTeX -->
+<link rel="stylesheet" href="https://jsdelivr.net">
+<script defer src="https://jsdelivr.net"></script>
+<script defer src="https://jsdelivr.net" onload="renderMathInElement(document.body, { delimiters: [ {left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false} ] });"></script>
+
 
 <style>
   body {
