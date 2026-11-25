@@ -6,7 +6,7 @@
 
 <style>
   body {
-    background-color: #333333;
+    background-color: #f7f7f7;
     font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     color: #333333;
     margin: 0;
